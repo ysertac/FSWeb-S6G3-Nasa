@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  width: 720px;
+  margin: 3rem auto;
+  border: 2px solid black;
+  padding: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 60px;
+}
+
+header input {
+  border: none;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
 }
 
 .App-logo {
